@@ -6,11 +6,6 @@
 
 I work across applied ML, C++ systems, and quantitative tooling with a focus on building things that are measurable, reproducible, and useful beyond a demo.
 
-<p>
-  <img src="https://komarev.com/ghpvc/?username=Talha-Dmr&style=flat&color=0e75b6" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/Talha-Dmr?style=flat&label=Followers&color=0e75b6" alt="followers" />
-</p>
-
 </div>
 
 ---
@@ -32,53 +27,10 @@ I work across applied ML, C++ systems, and quantitative tooling with a focus on 
 
 </div>
 
-<table>
-  <tr>
-    <td valign="top" width="50%">
-
-### Core Areas
-
 ```text
-AI / ML       RAG, local LLMs, reranking, evaluation
-RL            model-based planning, control, simulation
-Systems       C++, CMake, multithreading, binary parsing
-Quant         market data, order books, numerical methods
+AI / ML       RAG, local LLMs, reranking, evaluation, reinforcement learning
+Systems       C++, CMake, multithreading, binary protocol parsing
+Backend       FastAPI, Docker, PostgreSQL, REST APIs
+Frontend      TypeScript, React, Next.js
+Tooling       Git, GitHub Actions, pytest, Jupyter
 ```
-
-</td>
-<td valign="top" width="50%">
-
-### Tools I Use
-
-```text
-Backend       FastAPI, REST APIs, PostgreSQL
-Infra         Docker, Linux, GitHub Actions
-Research      PyTorch, Hugging Face, Jupyter
-Testing       pytest, unit tests, benchmarks
-```
-
-</td>
-  </tr>
-</table>
-
----
-
-## Current Focus
-
-<table>
-  <tr>
-    <td width="25%" align="center"><b>RAG</b><br/>grounding, reranking, evals</td>
-    <td width="25%" align="center"><b>RL</b><br/>model-based planning</td>
-    <td width="25%" align="center"><b>C++</b><br/>systems and performance</td>
-    <td width="25%" align="center"><b>Quant</b><br/>market data tooling</td>
-  </tr>
-</table>
-
----
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Talha-Dmr&show_icons=true&hide_title=true&hide_border=true&theme=default" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Talha-Dmr&layout=compact&hide_border=true&theme=default" alt="Top languages" />
-
-</div>
