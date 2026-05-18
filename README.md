@@ -31,3 +31,4 @@ Tooling       Git, GitHub Actions, pytest, Jupyter
 - Reinforcement learning and model-based planning
 - Market-data parsing, order books, and quantitative tooling
 - Performance-oriented C++ and Python systems
+
