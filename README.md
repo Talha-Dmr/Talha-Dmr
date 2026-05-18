@@ -21,16 +21,13 @@ I work across applied ML, C++ systems, and quantitative tooling with a focus on 
   <img src="https://img.shields.io/badge/OCaml-EC6813?style=for-the-badge&logo=ocaml&logoColor=white" />
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
   <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" />
   <img src="https://img.shields.io/badge/OpenGL-5586A4?style=for-the-badge&logo=opengl&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
 </div>
@@ -38,8 +35,8 @@ I work across applied ML, C++ systems, and quantitative tooling with a focus on 
 ```text
 AI / ML       RAG, local LLMs, reranking, evaluation, reinforcement learning
 Systems       C++, C, Rust, Go, CMake, multithreading, binary protocol parsing
-Backend       FastAPI, Docker, Kubernetes, PostgreSQL, REST APIs
+Backend       Docker, Kubernetes, PostgreSQL, REST APIs
 Graphics      OpenGL, shader programming, real-time rendering
-Languages     Python, C++, C, TypeScript, OCaml, Go, Rust
-Tooling       Git, pytest, Linux, CMake
+Languages     Python, C++, C, OCaml, Go, Rust
+Tooling       pytest, Linux, CMake
 ```
