@@ -2,41 +2,41 @@
 
 # Talha Demir
 
-**AI systems, retrieval pipelines, reinforcement learning, and performance-oriented software.**
+**Software engineer working across systems, AI, and high-performance computing.**
 
-I work across applied ML, C++ systems, and quantitative tooling with a focus on building things that are measurable, reproducible, and useful beyond a demo.
+I build computational systems where models, performance, and hardware constraints meet.
 
 </div>
 
 ---
 
-## Tech Stack
+## Focus
 
-<div align="center">
+- Low-level systems: C/C++, concurrency, memory, binary protocols, runtimes, and performance work
+- AI systems: retrieval, local LLMs, model evaluation, representation probing, and applied ML tooling
+- High-performance computing: GPU/CUDA-oriented work, simulation, numerical code, and hardware-aware software
+- Quantitative systems: market data, order books, backtesting, and low-latency engineering
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
-  <img src="https://img.shields.io/badge/OCaml-EC6813?style=for-the-badge&logo=ocaml&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenGL-5586A4?style=for-the-badge&logo=opengl&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-</p>
+## Selected Work
 
-</div>
+- [rag-project](https://github.com/Talha-Dmr/rag-project): retrieval and hallucination-gating experiments for financial/regulatory question answering
+- [nasdaq-itch-parser](https://github.com/Talha-Dmr/nasdaq-itch-parser): C++ parser work around NASDAQ ITCH market data
+- [nasdaq-order-book](https://github.com/Talha-Dmr/nasdaq-order-book): C++ order book construction from exchange-style event streams
+- [Model-Based-RL](https://github.com/Talha-Dmr/Model-Based-RL): dynamics modeling and planning experiments for reinforcement learning
+- [cloud-computing](https://github.com/Talha-Dmr/cloud-computing): service-oriented backend work with queues, databases, and containerized infrastructure
+
+## Working Style
+
+I like research-flavored problems that still need to become working systems: model probes, simulators, parsers, retrieval pipelines, performance-critical tools, and infrastructure that can be measured.
+
+I care about clear interfaces, reproducible experiments, latency, memory behavior, and code that makes a hard idea easier to inspect.
+
+## Stack
 
 ```text
-AI / ML       RAG, local LLMs, reranking, evaluation, reinforcement learning
-Systems       C++, C, Rust, Go, CMake, multithreading, binary protocol parsing
-Backend       Docker, Kubernetes, PostgreSQL, REST APIs
-Graphics      OpenGL, shader programming, real-time rendering
-Languages     Python, C++, C, OCaml, Go, Rust
-Tooling       pytest, Linux, CMake
+Systems        C++, C, Linux, CMake, multithreading, binary formats
+AI / ML        Python, PyTorch, RAG, local LLMs, evaluation, RL
+Infrastructure Docker, Kubernetes, PostgreSQL, Redis, queues, REST APIs
+HPC / graphics CUDA interests, OpenGL, simulation, real-time rendering
+Quant          Market data, order books, backtesting, low-latency systems
 ```
