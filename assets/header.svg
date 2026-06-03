@@ -1,73 +1,78 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Talha Demir profile header</title>
-  <desc id="desc">Dark technical banner for systems, AI, HPC, quant, and hardware-aware software.</desc>
+  <desc id="desc">Profile banner for systems, AI, high-performance computing, quant infrastructure, and hardware-aware software.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#020617"/>
-      <stop offset="0.48" stop-color="#07111F"/>
-      <stop offset="1" stop-color="#0B1220"/>
+      <stop offset="0.58" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#0F172A"/>
     </linearGradient>
-    <linearGradient id="line" x1="120" y1="300" x2="1080" y2="60" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="72" y1="218" x2="670" y2="218" gradientUnits="userSpaceOnUse">
       <stop stop-color="#14B8A6"/>
-      <stop offset="0.45" stop-color="#60A5FA"/>
+      <stop offset="0.48" stop-color="#38BDF8"/>
       <stop offset="1" stop-color="#A78BFA"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 92) rotate(137) scale(460 330)">
-      <stop stop-color="#2563EB" stop-opacity="0.34"/>
-      <stop offset="0.55" stop-color="#0F172A" stop-opacity="0.18"/>
+    <linearGradient id="panel" x1="742" y1="52" x2="1114" y2="252" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(935 72) rotate(135) scale(430 260)">
+      <stop stop-color="#2563EB" stop-opacity="0.28"/>
+      <stop offset="0.58" stop-color="#0F172A" stop-opacity="0.12"/>
       <stop offset="1" stop-color="#020617" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#1E293B" stroke-width="1" opacity="0.55"/>
+      <path d="M32 0H0V32" stroke="#1E293B" stroke-width="1" opacity="0.42"/>
     </pattern>
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4"/>
-    </filter>
   </defs>
 
-  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="28" fill="url(#grid)" opacity="0.55"/>
-  <rect width="1200" height="360" rx="28" fill="url(#glow)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)" opacity="0.55"/>
+  <rect width="1200" height="320" rx="24" fill="url(#glow)"/>
 
-  <g opacity="0.7">
-    <path d="M92 264H278L352 190H478L544 124H707" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
-    <path d="M688 124H818L882 188H1048" stroke="url(#line)" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
-    <circle cx="92" cy="264" r="6" fill="#14B8A6"/>
-    <circle cx="278" cy="264" r="6" fill="#14B8A6"/>
-    <circle cx="352" cy="190" r="6" fill="#38BDF8"/>
-    <circle cx="478" cy="190" r="6" fill="#38BDF8"/>
-    <circle cx="544" cy="124" r="6" fill="#60A5FA"/>
-    <circle cx="707" cy="124" r="6" fill="#A78BFA"/>
-    <circle cx="882" cy="188" r="6" fill="#A78BFA"/>
-    <circle cx="1048" cy="188" r="6" fill="#A78BFA"/>
+  <g transform="translate(72 74)">
+    <text x="0" y="0" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="52" font-weight="760" letter-spacing="0">Talha Demir</text>
+    <text x="2" y="46" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">systems / AI / HPC / quant / hardware-aware software</text>
+
+    <rect x="0" y="86" width="602" height="2" rx="1" fill="url(#accent)"/>
+
+    <g transform="translate(0 124)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+      <rect x="0" y="0" width="124" height="34" rx="8" fill="#0F766E" fill-opacity="0.18" stroke="#14B8A6" stroke-opacity="0.65"/>
+      <text x="22" y="22" fill="#99F6E4">C / C++</text>
+      <rect x="140" y="0" width="128" height="34" rx="8" fill="#1D4ED8" fill-opacity="0.16" stroke="#60A5FA" stroke-opacity="0.58"/>
+      <text x="162" y="22" fill="#BFDBFE">PyTorch</text>
+      <rect x="284" y="0" width="128" height="34" rx="8" fill="#7C3AED" fill-opacity="0.15" stroke="#A78BFA" stroke-opacity="0.58"/>
+      <text x="309" y="22" fill="#DDD6FE">CUDA</text>
+      <rect x="428" y="0" width="138" height="34" rx="8" fill="#334155" fill-opacity="0.22" stroke="#94A3B8" stroke-opacity="0.46"/>
+      <text x="451" y="22" fill="#CBD5E1">FPGA</text>
+    </g>
   </g>
 
-  <g opacity="0.9">
-    <rect x="824" y="58" width="304" height="196" rx="18" fill="#020617" fill-opacity="0.72" stroke="#334155"/>
-    <text x="850" y="92" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">runtime.trace</text>
-    <text x="850" y="126" fill="#5EEAD4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">latency  : measured</text>
-    <text x="850" y="154" fill="#93C5FD" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">models   : probed</text>
-    <text x="850" y="182" fill="#C4B5FD" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">hardware : constrained</text>
-    <text x="850" y="214" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">status   : building</text>
-  </g>
+  <g transform="translate(742 52)">
+    <rect x="0" y="0" width="386" height="204" rx="16" fill="url(#panel)" fill-opacity="0.86" stroke="#334155"/>
+    <text x="28" y="38" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">computational.systems</text>
 
-  <g filter="url(#soft)" opacity="0.65">
-    <circle cx="280" cy="114" r="58" fill="#0EA5E9" fill-opacity="0.16"/>
-    <circle cx="474" cy="252" r="62" fill="#14B8A6" fill-opacity="0.13"/>
-    <circle cx="774" cy="92" r="48" fill="#8B5CF6" fill-opacity="0.14"/>
-  </g>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+      <rect x="28" y="66" width="104" height="34" rx="8" fill="#042F2E" stroke="#0F766E"/>
+      <text x="50" y="88" fill="#5EEAD4">models</text>
+      <path d="M140 83H188" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+      <path d="M184 78L190 83L184 88" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="198" y="66" width="130" height="34" rx="8" fill="#0F172A" stroke="#334155"/>
+      <text x="220" y="88" fill="#CBD5E1">probes</text>
 
-  <text x="74" y="116" fill="#E5E7EB" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="52" font-weight="740" letter-spacing="0">Talha Demir</text>
-  <text x="78" y="160" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">systems · AI · HPC · quant · hardware-aware software</text>
+      <rect x="28" y="114" width="104" height="34" rx="8" fill="#172554" stroke="#2563EB"/>
+      <text x="44" y="136" fill="#93C5FD">runtimes</text>
+      <path d="M140 131H188" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+      <path d="M184 126L190 131L184 136" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="198" y="114" width="130" height="34" rx="8" fill="#0F172A" stroke="#334155"/>
+      <text x="220" y="136" fill="#CBD5E1">latency</text>
 
-  <g transform="translate(76 198)">
-    <rect x="0" y="0" width="132" height="34" rx="17" fill="#0F766E" fill-opacity="0.22" stroke="#14B8A6" stroke-opacity="0.6"/>
-    <text x="19" y="23" fill="#99F6E4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">C/C++</text>
-    <rect x="148" y="0" width="154" height="34" rx="17" fill="#1D4ED8" fill-opacity="0.18" stroke="#60A5FA" stroke-opacity="0.58"/>
-    <text x="168" y="23" fill="#BFDBFE" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">PyTorch</text>
-    <rect x="318" y="0" width="150" height="34" rx="17" fill="#7C3AED" fill-opacity="0.16" stroke="#A78BFA" stroke-opacity="0.58"/>
-    <text x="338" y="23" fill="#DDD6FE" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">CUDA / FPGA</text>
-    <rect x="484" y="0" width="160" height="34" rx="17" fill="#334155" fill-opacity="0.24" stroke="#94A3B8" stroke-opacity="0.46"/>
-    <text x="504" y="23" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">market data</text>
+      <rect x="28" y="162" width="104" height="34" rx="8" fill="#2E1065" stroke="#7C3AED"/>
+      <text x="42" y="184" fill="#C4B5FD">hardware</text>
+      <path d="M140 179H188" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+      <path d="M184 174L190 179L184 184" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="198" y="162" width="130" height="34" rx="8" fill="#0F172A" stroke="#334155"/>
+      <text x="220" y="184" fill="#CBD5E1">constraints</text>
+    </g>
   </g>
 </svg>
