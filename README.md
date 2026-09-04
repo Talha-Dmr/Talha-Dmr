@@ -40,6 +40,12 @@ models / representations  ->  systems / runtime behavior  ->  hardware / latency
 | [Model-Based-RL](https://github.com/Talha-Dmr/Model-Based-RL) | dynamics modeling, planning, reinforcement learning | connects learned models with control and simulation |
 | [cloud-computing](https://github.com/Talha-Dmr/cloud-computing) | services, queues, databases, containerized infrastructure | practical distributed-system substrate for real workloads |
 
+## Open Source Contributions
+
+| Repository | Domain / Stack | Key Contribution |
+| --- | --- | --- |
+| [NVIDIA-NeMo/Switchyard](https://github.com/NVIDIA-NeMo/Switchyard) | Rust, AI Infra, Observability | [PR #609](https://github.com/NVIDIA-NeMo/Switchyard/pull/609): Unified Prometheus & tracing outcome vocabulary across exported metrics, resolving dashboard query inconsistencies ([#485](https://github.com/NVIDIA-NeMo/Switchyard/issues/485)). |
+
 ## Current Direction
 
 - Protein and scientific foundation models: representation spaces, probing, and model-assisted discovery.
@@ -49,6 +55,7 @@ models / representations  ->  systems / runtime behavior  ->  hardware / latency
 ## Stack Signals
 
 <p>
+  <img src="https://img.shields.io/badge/Rust-0F172A?style=for-the-badge&logo=rust&logoColor=F97316" alt="Rust" />
   <img src="https://img.shields.io/badge/C-0F172A?style=for-the-badge&logo=c&logoColor=A7F3D0" alt="C" />
   <img src="https://img.shields.io/badge/C++-0F172A?style=for-the-badge&logo=cplusplus&logoColor=93C5FD" alt="C++" />
   <img src="https://img.shields.io/badge/Linux-0F172A?style=for-the-badge&logo=linux&logoColor=FACC15" alt="Linux" />
